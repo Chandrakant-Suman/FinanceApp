@@ -134,9 +134,9 @@ Creates 3 users and 40 random financial records.
 
 | Role     | Email                  | Password      |
 | -------- | ---------------------- | ------------- |
-| admin    | admin@finance.com      | password123   |
-| analyst  | analyst@finance.com    | password123   |
-| viewer   | viewer@finance.com     | password123   |
+| admin    | admin@finance.com      | ***********   |
+| analyst  | analyst@finance.com    | ***********   |
+| viewer   | viewer@finance.com     | ***********   |
 
 ---
 
@@ -215,7 +215,7 @@ Content-Type: application/json
 {
   "name": "Jane Doe",
   "email": "jane@example.com",
-  "password": "secret123",
+  "password": "**********",
   "role": "analyst"
 }
 ```
@@ -227,7 +227,7 @@ Content-Type: application/json
 
 {
   "email": "admin@finance.com",
-  "password": "password123"
+  "password": "**********"
 }
 ```
 
